@@ -1,0 +1,26 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        form {
+            width: 450px;
+        }
+
+        label {
+            display: inline-block;
+            width: 220px;
+            margin-bottom: 10px;
+        }
+
+        input,
+        select {
+            width: 180px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 6px 15px;
+            margin-right: 5px;
+        }

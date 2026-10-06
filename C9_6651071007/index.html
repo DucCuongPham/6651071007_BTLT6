@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thông tin người dùng</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+
+<body>
+
+    <h1>Đăng ký thông tin người dùng</h1>
+
+    <form id="registrationForm">
+        <label for="username">
+            Nhập tên người dùng*:
+        </label>
+        <input 
+            type="text" 
+            id="username" 
+            name="username"
+        >
+        <br>
+        <label for="sex">
+            Giới tính*:
+        </label>
+        <select id="sex" name="sex">
+            <option value="">-- Chọn giới tính --</option>
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+        </select>
+        <br>
+        <label for="email">
+            Email*:
+        </label>
+        <input type="text" id="email" name="email"
+        >
+        <br>
+        <label for="birthday">
+            Nhập ngày sinh (MM/DD/YYYY)*:
+        </label>
+        <input 
+            type="text" 
+            id="birthday" 
+            name="birthday"
+            placeholder="MM/DD/YYYY"
+        >
+        <br><br>
+        <button type="submit">
+            Đăng ký
+        </button>
+        <button type="button" id="clear">Clear
+        </button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Scripts/cau9.js"></script>
+</body>
+</html>
